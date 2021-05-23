@@ -66,6 +66,10 @@ table {
     width: 100%;
 }
 
+.responsive {
+    display: none;
+}
+
 td,
 th {
     border: 1px solid #dddddd;
@@ -92,6 +96,12 @@ th i {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+    }
+    .full {
+        display: none;
+    }
+    .responsive {
+        display: block;
     }
     h1 {
         margin-bottom: 20px;
